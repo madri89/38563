@@ -1,0 +1,37 @@
+.box{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 20px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    cursor: pointer;
+    /* transition: 1s all linear; */
+
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.red:hover{
+    width: 300px;
+}
+
+.blue:hover{
+    height: 300px;
+}
+
+.green:hover{
+    width: 300px;
+    height: 300px;
+}
